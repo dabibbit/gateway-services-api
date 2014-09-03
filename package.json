@@ -1,0 +1,23 @@
+{
+  "name": "gatewayd-services-api",
+  "version": "0.1.0",
+  "description": "Bridge quotes, payments, and history.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatewayd/gateway-services-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatewayd/gateway-services-api/issues"
+  },
+  "homepage": "https://github.com/gatewayd/gateway-services-api",
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "express": "^4.8.7"
+  }
+}
